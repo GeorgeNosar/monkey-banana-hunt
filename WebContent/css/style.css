@@ -1,0 +1,71 @@
+		div {
+            text-align: center;
+        }
+        body{
+            background: url(../res/jungle-bg.png) no-repeat;
+            width: 100%;
+            height: 100%;
+            background-size: 100%;
+            overflow: hidden;
+            margin: 0;
+            align-items: center;
+        }
+        h1 {
+        	text-align: center;
+        	color: #efca32;
+        	text-shadow:
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+        }
+        #map{
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 40px;
+            border: 2px solid #000000;
+            background: #ffffff;
+        }
+        .but{
+            margin-top: 20px;
+
+        }
+        a.button1 {
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            padding: .8em 1em calc(.8em + 3px);
+            border-radius: 3px;
+            background: rgb(64,199,129);
+            box-shadow: 0 -3px rgb(53,167,110) inset;
+            transition: 0.2s;
+            margin-right: 150px;
+        }
+        a.button1:hover {
+            background: rgb(33,147,90);
+            box-shadow: 0 3px rgb(33,147,90) inset;
+        }
+        a.button1:active {
+            background: rgb(33,147,90);
+            box-shadow: 0 3px rgb(33,147,90) inset;
+        }
+        a.button2 {
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            padding: .8em 1em calc(.8em + 3px);
+            border-radius: 3px;
+            background: rgb(199, 52, 74);
+            box-shadow: 0 -3px rgb(145, 38, 40) inset;
+            transition: 0.2s;
+        }
+        a.button2:hover {
+            background: rgb(147, 64, 40);
+            box-shadow: 0 3px rgb(147, 82, 60) inset;
+        }
+        a.button2:active {
+            background: rgb(147, 64, 40);
+            box-shadow: 0 3px rgb(147, 82, 60) inset;
+        }
+        
